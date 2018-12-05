@@ -1,0 +1,33 @@
+.hbox{
+    -fx-background-color: #535353;
+    -fx-border-width:1 0 0 0;
+    -fx-border-color:#404040;
+}
+
+.toggle-button {
+    -fx-max-width: 80px;
+    -fx-min-width:80px;
+    -fx-max-height:25px;
+    -fx-min-height:25px;
+    -fx-background-color: #535353;
+    -fx-background-image: url("/graphics/terminal.png");
+    -fx-background-size: 30%;
+    -fx-background-position: left;
+    -fx-background-repeat: no-repeat;
+}
+.toggle-button .label{
+    -fx-text-alignment: right;
+}
+
+.toggle-button:hover{
+    -fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #7b7b7b 0%, #535353 100%);
+    -fx-border-color: #404040;
+    -fx-border-radius: 1 1 1 1;
+    -fx-border-insets: -1 -1 -1 -1;
+}
+
+.toggle-button:selected{
+    -fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #4b4b4b 0%, #404040 100%);
+    -fx-border-width: 0 0 0 0;
+    -fx-effect: innershadow(one-pass-box, rgba(20, 20, 20, 1), 1, 0, 1, 1)
+}

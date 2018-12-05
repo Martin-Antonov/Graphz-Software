@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GrapzWeb">
+    <output-path>$PROJECT_DIR$/out/artifacts/GrapzWeb</output-path>
+    <root id="archive" name="GrapzWeb.war" />
+  </artifact>
+</component>

@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Graphz">
+    <output-path>$PROJECT_DIR$/out/artifacts/Graphz</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="asd" />
+        <option name="description" value="asd" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="asd" />
+        <option name="vendor" value="asd" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Graphz.jar">
+        <element id="module-output" name="Graphz" />
+      </element>
+    </root>
+  </artifact>
+</component>

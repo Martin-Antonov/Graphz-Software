@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Graphz:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Graphz_jar</output-path>
+    <root id="archive" name="Graphz.jar">
+      <element id="module-output" name="Graphz" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dependencies/commons-math3-3.6.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

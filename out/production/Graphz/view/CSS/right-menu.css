@@ -1,0 +1,50 @@
+.vbox {
+    -fx-background-color: #535353;
+    -fx-border-width: 1 0 1 0;
+    -fx-border-color: #404040;
+}
+
+.t-pane {
+    -fx-text-fill: #DFDFDF;
+    -fx-border-color: #404040;
+    -fx-font-weight: bolder;
+}
+
+.t-pane > .title {
+    -fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #4b4b4b 0%, #404040 100%);
+    -fx-border-width: 0 0 0 0;
+}
+
+.s-pane {
+    -fx-background-color: aqua;
+    -fx-border-width: 0 0 0 0;
+}
+
+.table {
+    -fx-background-color: #959595;
+    -fx-text-fill: aqua;
+}
+
+.table .column-header {
+    -fx-background-color: #626262;
+}
+
+.table .column-header .label {
+    -fx-text-fill: #a1a1a1;
+    -fx-font-size: 10px;
+}
+
+.table .table-cell{
+    -fx-font-size: 11px;
+}
+
+.text-area .content{
+    -fx-background-color: #959595;
+}
+
+#console{
+    -fx-font-family: Consolas;
+    -fx-font-size:12px;
+    -fx-text-fill: black;
+}
+
